@@ -48,7 +48,7 @@ def shoot():
 
 # collision
 def col(x1,y1,x2,y2):
-    if abs(y1-y2)<=50 and x1-x2<22 and x2-x1<50:
+    if y1+15<y2 and x1-x2<22 and x2-x1<50:
         return 1
     else :
         return 0
